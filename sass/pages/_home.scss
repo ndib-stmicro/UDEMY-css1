@@ -1,5 +1,32 @@
 .section-about {
-background-color: $color-light-gray-1;
-padding: 25rem 0;
-margin-top: -20vh;
+  background-color: $color-light-gray-1;
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../img/nat-4.jpg);
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+//& > * is the direct child feature on section-features. What this does is directly targets the FIRST child of a parent to be manipulated specifically.
+// In this instance, in the feature section because the parent section-features is skewed it skees everything in its container. With the
+// direct child feature we target the children to compensate them from being skewed as well.
+
+.section-tours {
+  background-color: $color-light-gray-1;
+  padding: 25rem 0 50rem 0;
+  margin-top: -10rem;
 }

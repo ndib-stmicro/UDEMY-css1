@@ -2,23 +2,20 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import 'base/base';
-@import 'base/animations';
-@import 'base/typography';
-@import 'base/utilities';
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
 
-@import 'components/button';
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
 
 @import "pages/home";
 
-@import 'layout/header';
+@import "layout/header";
 @import "layout/grid";
-
-
-
-
-
-
 
 // .header__logo-box {
 //   position: absolute;
@@ -37,7 +34,6 @@
 //   transform: translate(-50%, -50%);
 //   text-align: center;
 // }
-
 
 /* CODE PEN LESSON ON SCSS */
 /* 
