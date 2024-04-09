@@ -1,0 +1,104 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import 'base/base';
+@import 'base/animations';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'components/button';
+
+@import "pages/home";
+
+@import 'layout/header';
+@import "layout/grid";
+
+
+
+
+
+
+
+// .header__logo-box {
+//   position: absolute;
+//   top: 4rem;
+//   left: 4rem;
+// }
+
+// .header__logo {
+//   height: 35px;
+// }
+
+// .header__text-box {
+//   position: absolute;
+//   top: 40%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   text-align: center;
+// }
+
+
+/* CODE PEN LESSON ON SCSS */
+/* 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 30px;
+  background-color: #f9ed69;
+}
+nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+}
+.navigation li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.navigation li:first-child {
+  margin: 0;
+}
+.navigation li a:link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.buttons {
+  float: right;
+}
+
+.btn-main:link,
+.btn-hot:link {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+  color: white;
+}
+
+.btn-main:link {
+  background-color: #f0985d;
+}
+.btn-main:hover {
+  background-color: #d36114;
+}
+
+.btn-hot:link {
+  background-color: #b83b35;
+}
+.btn-hot:hover {
+  background-color: #69221e;
+} */
