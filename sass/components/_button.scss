@@ -1,4 +1,7 @@
+//link and visited are psuedoclasses for <a> tags. they dont for work <button> tags
+
 .btn {
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
@@ -9,6 +12,10 @@
     transition: all 0.2s;
     position: relative;
     font-size: $default-font-size;
+
+    //change for the <button> element
+    border: none;
+    cursor: pointer;
   }
 
   &:hover {
