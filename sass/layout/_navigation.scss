@@ -142,7 +142,16 @@
   }
 
   &__checkbox:checked + &__btn &__icon {
-    
+    background-color: transparent;
+  }
+
+  &__checkbox:checked + &__btn &__icon::before {
+    top: 2px;
+    transform: rotate(135deg);
+  }
+
+  &__checkbox:checked + &__btn &__icon::after {
+    top: 2px;
+    transform: rotate(-135deg);
   }
 }
-
