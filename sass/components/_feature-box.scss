@@ -7,6 +7,10 @@
   box-sizing: 0 1.5rem 4rem rgba($color-black, 0.15);
   transition: transform .3s;
 
+  @include respond(tabport){
+    padding: 2rem;
+  }
+
   &__icon {
     font-size: 6rem;
     margin-bottom: 0.5rem;
