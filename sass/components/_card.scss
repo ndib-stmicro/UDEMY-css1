@@ -193,6 +193,7 @@
     &__side {
       height: auto;
       position: relative;
+      -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
 
       &--back {
